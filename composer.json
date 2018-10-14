@@ -1,6 +1,6 @@
 {
     "name": "sinevia/php-data-object",
-    "description": "LogBucket",
+    "description": "PHP Data Object",
     "type": "library",
     "keywords": ["object","data","library", "php", "sinevia"],    
     "homepage": "http://github.com/sinevia/php-data-object",
