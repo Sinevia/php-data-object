@@ -1,0 +1,23 @@
+{
+    "name": "sinevia/php-data-object",
+    "description": "LogBucket",
+    "type": "library",
+    "keywords": ["object","data","library", "php", "sinevia"],    
+    "homepage": "http://github.com/sinevia/php-data-object",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Milan Lesichkov",
+            "email": "lesichkovm@gmail.com",
+            "homepage": "http://lesichkov.co.uk",
+            "role": "Lead Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/DataObject.php"            
+        ]
+    },
+    "require": {
+    }
+}
