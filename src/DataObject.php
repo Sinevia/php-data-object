@@ -45,6 +45,22 @@ class DataObject {
     function getAll() {
         return $this->data;
     }
+    
+    /**
+     * Checks if a property exists
+     * @return booean success if exists, false otherwise
+     */
+    function has($name) {
+        if (is_string($name) == false) {
+            throw new \InvalidArgumentException("The first parameter in the has method in " . get_class($this) . " MUST be of type String: <b>" . gettype($name) . "</b> given");
+        }
+
+        if (array_key_exists($name, $this->data)) {
+            return true;
+        }
+        
+        return false;
+    }
 
     /**
      * @param String $name
